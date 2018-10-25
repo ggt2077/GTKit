@@ -1,0 +1,22 @@
+{
+  "name": "GTKit",
+  "version": "0.1.0",
+  "summary": "A short description of GTKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ggt2077/GTKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ggt2077": "guoguangtao01@zhuanzhuan.com"
+  },
+  "source": {
+    "git": "https://github.com/ggt2077/GTKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "GTKit/Classes/**/*"
+}

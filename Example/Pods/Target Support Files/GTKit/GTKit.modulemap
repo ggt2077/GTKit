@@ -1,0 +1,6 @@
+framework module GTKit {
+  umbrella header "GTKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
