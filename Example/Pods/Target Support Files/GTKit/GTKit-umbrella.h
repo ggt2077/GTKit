@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "UIView+GTView.h"
 
 FOUNDATION_EXPORT double GTKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char GTKitVersionString[];
