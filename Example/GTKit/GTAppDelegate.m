@@ -7,6 +7,7 @@
 //
 
 #import "GTAppDelegate.h"
+#import <GTKit/UIView+GTView.h>
 
 @implementation GTAppDelegate
 
