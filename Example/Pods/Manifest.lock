@@ -1,5 +1,31 @@
 PODS:
-  - GTKit (0.1.0)
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - GTKit (0.0.1):
+    - GTKit/GTNetwork (= 0.0.1)
+    - GTKit/GTUI (= 0.0.1)
+  - GTKit/GTNetwork (0.0.1):
+    - AFNetworking (~> 2.3)
+  - GTKit/GTUI (0.0.1)
   - Kiwi (3.0.0)
 
 DEPENDENCIES:
@@ -11,7 +37,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  GTKit: 2661c6b635e6ce1d6665feff3840ffc59e509276
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  GTKit: 58a95d99c18a732b68372a2524a8519eaaca4d02
   Kiwi: fbeafef0f00e4d8f7dcb3420a4930afe70af77f7
 
 PODFILE CHECKSUM: 3f4c65f99995b4e7143ff2c541cd89b80526c035

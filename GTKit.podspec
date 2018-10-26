@@ -31,7 +31,16 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'GTKit/Classes/**/*'
-  
+
+  s.subspec 'GTNetwork' do |ss|
+    ss.source_files = 'GTKit/Classes/GTNetwork/**/*'
+    ss.dependency 'AFNetworking', '~>2.3'
+  end
+
+  s.subspec 'GTUI' do |ss|
+    ss.source_files = 'GTKit/Classes/GTUI/**/*'
+  end
+
   # s.resource_bundles = {
   #   'GTKit' => ['GTKit/Assets/*.png']
   # }
